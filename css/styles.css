@@ -23,6 +23,12 @@ ul li a {
 ul li a:hover:not(.active) {
     background-color: #a3c3ff;
 }
+.img {
+        border-radius: 8px;
+        width: 100%;
+        height: auto; 
+        max-width: 100%; /* stops image from scaling larger than og size on mobile */
+     }
 
 
 
