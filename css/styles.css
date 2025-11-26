@@ -110,6 +110,20 @@ body {
   border-radius: 10px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
+.my-image {
+    border-radius: 8px;     
+    width: 100%;            
+    height: auto;            
+    max-width: 100%;/* stops image from scaling larger than og size on mobile */    
+}
+
+.my-image:hover {
+    transform: scale(1.5);    
+    transition-duration: 5s;  
+}
+
+
+
 
 .destinations {
     display: flex;
@@ -264,7 +278,11 @@ footer {
         font-size: 1.8em;
     }
 
-    .destinations {
+   
+}
+
+@media (max-width: 450px) {
+     .destinations {
     flex-direction:column;
     }
 }
