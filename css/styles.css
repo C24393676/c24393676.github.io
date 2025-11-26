@@ -29,6 +29,12 @@ ul li a:hover:not(.active) {
         height: auto; 
         max-width: 100%; /* stops image from scaling larger than og size on mobile */
      }
+.my-image:hover {
+  transform: scale(1.5) translateX(50%);
+ transition-duration: 5s;
+
+}
+
 
 
 
