@@ -25,15 +25,15 @@ ul li a:hover:not(.active) {
     background-color: #a3c3ff;
 }
 .my-image {
-        border-radius: 8px;
-        width: 100%;
-        height: auto; 
-        max-width: 100%; /* stops image from scaling larger than og size on mobile */
-     }
-.my-image:hover {
-  transform: scale(1.5) ;
- transition-duration: 5s;
+    border-radius: 8px;
+    width: 100%;
+    height: auto;
+    max-width: 100%; /* stops image from scaling larger than og size on mobile */
+    transition: transform 0.5s ease;
+}
 
+.my-image:hover {
+    transform: scale(1.5);
 }
 
 
