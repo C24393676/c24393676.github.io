@@ -23,7 +23,7 @@ ul li a {
 ul li a:hover:not(.active) {
     background-color: #a3c3ff;
 }
-.img {
+.my-image {
         border-radius: 8px;
         width: 100%;
         height: auto; 
