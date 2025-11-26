@@ -10,6 +10,7 @@ ul {
 
 ul li {
     float: left;
+    width:30%;
 }
 
 ul li a {
