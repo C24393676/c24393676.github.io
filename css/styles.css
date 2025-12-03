@@ -6,7 +6,11 @@ ul {
     background-color:rgba(255, 255, 255, 0.1);
     
 }
-
+ .container{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+ }
 
 ul li {
     float: left;
