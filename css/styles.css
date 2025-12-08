@@ -3,7 +3,8 @@
     height: 10%;
     background-color: #66ccff00;
     transition: width 4s ease 0.2s;
-    transform: scale(3)
+    transform: scale(3);
+    transition-duration: 5s;
 }
 #webname:hover{
   	width: 50%;
