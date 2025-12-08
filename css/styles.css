@@ -1,5 +1,7 @@
 #webname{
     width: 30%;
+    height: 10%;
+     background-color: #66ccff00;
     transition: width 4s ease 0.2s;
 }
 #webname:hover{
