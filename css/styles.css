@@ -1,9 +1,9 @@
 #webname{
-    width: 100px;
+    width: 30%;
     transition: width 4s ease 0.2s;
 }
 #webname:hover{
-  	width: 300px;
+  	width: 50%;
 }
 
 
