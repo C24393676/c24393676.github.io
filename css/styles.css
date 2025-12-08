@@ -1,3 +1,12 @@
+#webname{
+    width: 100px;
+    transition: width 4s ease 0.2s;
+}
+#square:hover{
+  	width: 300px;
+}
+
+
 ul {
     list-style-type: none;
     margin: 0;
