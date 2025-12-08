@@ -2,7 +2,7 @@
     width: 100px;
     transition: width 4s ease 0.2s;
 }
-#square:hover{
+#webname:hover{
   	width: 300px;
 }
 
