@@ -339,10 +339,10 @@ footer {
         width:50px;
         height:50px;
     }
-    .ski{
+    #ski{
         animation: moveRight 14s linear infinite;
         animation-delay: 7s;}    
-    .ski{
+    #ski{
     
         width: 150px;              
         height: 150px;             
