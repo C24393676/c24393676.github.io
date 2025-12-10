@@ -331,6 +331,11 @@ footer {
         position: absolute;
         animation: moveRight 20s linear infinite;
     }    
+    .snowball{
+        width:50px;
+        height:50px;
+    }
+        
     @keyframes moveRight {
   0% {
     /*the left property will position the element considering the left edge*/
