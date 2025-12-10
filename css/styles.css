@@ -339,22 +339,23 @@ footer {
         width:50px;
         height:50px;
     }
-    #ski{
-        animation: moveRight 14s linear infinite;
-        animation-delay: 7s;}    
-    #ski{
-    
-        width: 150px;              
-        height: 150px;             
-        background-image: url('../media/sport.png');
-        background-repeat: no-repeat;
-        background-size: 400% 100%;   
-        animation: sprite 480ms steps(4) infinite;
+    .ski {
+    position: absolute; /*for left function*/
+    width: 50px;
+    height:50px;
+    background-image: url('../media/sport.png');
+    background-repeat: no-repeat;
+    background-size: 400% 100%;
+
+    animation: 
+    sprite 480ms steps(4) infinite,
+    moveRight 14s linear infinite 7s;
     }
 
-    @keyframes ski {
-        from { background-position: 0 0; }
-        to   { background-position: -400% 0; } 
+
+    @keyframes sprite {
+    from { background-position: 0 0; }
+    to   { background-position: -400% 0; }
     }
     
 
