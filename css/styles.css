@@ -346,8 +346,10 @@ footer {
     background-image: url('../media/sport.png');
     background-repeat: no-repeat;
     background-size: 400% 100%;
+    opacity: 0;    
 
     animation: 
+    fadeIn 0s linear 7s forwards,
     sprite 480ms steps(4,end) infinite,
     moveRight 14s linear infinite 7s;
     }
@@ -356,6 +358,11 @@ footer {
     @keyframes ski {
     from { background-position: 0 0; }
     to   { background-position: -200px 0; }
+    }
+
+    @keyframes fadeIn {
+    from { opacity: 0; }
+    to   { opacity: 1; }
     }
     
 
