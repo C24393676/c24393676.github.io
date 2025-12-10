@@ -324,7 +324,7 @@ footer {
     
     font-size:smaller;
 }
-    .snowball{
+    #snowball{
         width: 50px;
         height: 100px;
         /*we position the element as absolute so it can freely move across the screen*/
