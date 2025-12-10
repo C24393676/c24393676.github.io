@@ -324,10 +324,13 @@ footer {
     
     font-size:smaller;
 }
+    #blank{
+        width:50px;
+        height:50px;
+    }
     #snowball{
         width:50px;
         height:50px;
-        border:25px;
         /*we position the element as absolute so it can freely move across the screen*/
         position: absolute;
         animation: moveRight 14s linear infinite;
@@ -336,6 +339,25 @@ footer {
         width:50px;
         height:50px;
     }
+    .ski{
+        animation: moveRight 14s linear infinite;
+        animation-delay: 7s;}    
+    .ski{
+    
+        width: 150px;              
+        height: 150px;             
+        background-image: url('sprite.png');
+        background-repeat: no-repeat;
+        background-size: 400% 100%;   
+        animation: sprite 480ms steps(4) infinite;
+    }
+
+    @keyframes ski {
+        from { background-position: 0 0; }
+        to   { background-position: -400% 0; } 
+    }
+    
+
         
     @keyframes moveRight {
   0% {
