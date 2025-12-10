@@ -330,7 +330,7 @@ footer {
         border:25px;
         /*we position the element as absolute so it can freely move across the screen*/
         position: absolute;
-        animation: moveRight 20s linear infinite;
+        animation: moveRight 14s linear infinite;
     }    
     .snowball{
         width:50px;
